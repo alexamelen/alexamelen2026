@@ -1,0 +1,118 @@
+.header{
+    display: flex;
+    height: 1045px;
+    padding: 28.271px 37.695px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9.424px;
+    align-self: stretch;
+}
+.hero{
+    display: flex;
+    padding: 114px 29.937px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 52.966px;
+    align-self: stretch;
+}
+
+.miffy-and-me{
+    width: 446.965px;
+    height: 421.231px;
+    aspect-ratio: 139/131;
+}
+
+.hero-text{
+    display: flex;
+    padding: 27.635px 39.149px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11.514px;
+}
+
+.greeting{
+    align-self: stretch;
+    color: var(--Detail-Color, #3B3A34);
+    text-align: center;
+    font-family: Sora;
+    font-size: 27.635px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.name{
+    width: 584.931px;
+    height: 93.267px;
+    color: var(--Detail-Color, #3B3A34);
+    text-align: center;
+    font-family: Sora;
+    font-size: 73.692px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.title{
+    color: var(--Detail-Color, #3B3A34);
+    text-align: center;
+    font-family: Sora;
+    font-size: 46.058px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-btns{
+    display: flex;
+    padding: 16.12px 14.969px;
+    justify-content: center;
+    align-items: center;
+    gap: 24.18px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.resume-btn{
+    width: 216.47px;
+    height: 73.692px;
+    border-radius: 57.572px;
+    background: #F5E8AA;
+    box-shadow: 10.363px 12.666px 0 0 var(--Detail-Color, #3B3A34);
+    color: var(--Detail-Color, #3B3A34);
+    text-align: center;
+    font-family: Sora;
+    font-size: 27.635px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contact-btn{
+    width: 241.666px;
+    height: 73.692px;
+    border-radius: 57.572px;
+background: #F5E8AA;
+box-shadow: 10.363px 12.666px 0 0 var(--Detail-Color, #3B3A34);
+color: var(--Detail-Color, #3B3A34);
+text-align: center;
+font-family: Sora;
+font-size: 27.635px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.social-btns{
+    display: flex;
+padding: 12.666px 19.574px;
+justify-content: center;
+align-items: center;
+gap: 25.332px;
+}
+
+.linkedin-btn{
+    width: 55.269px;
+height: 55.269px;
+}

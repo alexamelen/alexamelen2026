@@ -1,9 +1,48 @@
 import React from 'react'
 import "./Landing.css";
+import { LinkedIn, Github , Me1} from '../..';
 
 const Landing = () => {
   return (
-    <div>Landing</div>
+    <header>
+      <div className = "hero">
+        <div className='miffy-and-me'>
+          <img src={Me1} alt="Photo of Alex Melendez" />
+        </div>
+
+        <div className = "hero-text">
+        <p className = "greeting" >Hello, I'm</p>
+        <h1 className = "name">Alex Melendez</h1>
+        <h2 className = "title">Software Engineer</h2>
+
+        <div className = "hero-buttons">
+          <a href="#" className='resume-btn'> Resume</a>
+          <a href="mailto:alexamelen.03@gmail.com" className="contact-btn"> Contact Me!</a>
+        </div>
+
+        <div className = 'social-btns'> 
+          <a
+            href="https://www.linkedin.com/in/alexamelen"
+            className="linnkedin-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
+          >
+            <img src={LinkedIn} alt="" />
+          </a>
+          <a
+            href="https://github.com/alexamelen"
+            className="github-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Github profile"
+          >
+            <img src={Github} alt="" />
+          </a>
+        </div>
+        </div>
+      </div>
+    </header>
   )
 }
 
