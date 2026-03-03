@@ -1,11 +1,11 @@
 .nav-wrapper{
     display: flex;
-padding: 0 47.119px;
-justify-content: space-between;
-align-items: center;
-align-self: stretch;
-border-radius: 37.695px;
-background: var(--Sub-section-Color, #F5E8AA);
+    padding: 0 47.119px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 37.695px;
+    background: var(--Sub-section-Color, #F5E8AA);
 }
 
 .logo{
@@ -18,15 +18,12 @@ background: var(--Sub-section-Color, #F5E8AA);
 
 .menu{
     display: flex;
-padding: 9.424px 47.119px;
-justify-content: center;
-align-items: center;
-gap: 37.695px;
+    padding: 9.424px 47.119px;
+    justify-content: center;
+    align-items: center;
+    gap: 37.695px;
 }
-.logo-name,
-.menu-home,
-.menu-about,
-.menu-projects{
+.logo-name{
     margin: 0;
 }
 
@@ -41,13 +38,12 @@ gap: 37.695px;
     line-height: normal;
 }
 
-.menu-home,
-.menu-about,
-.menu-projects{
+.menu-item {
     color: var(--Detail-Color, #3B3A34);
     font-family: Sora;
     font-size: 22.364px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    text-decoration: none;
 }

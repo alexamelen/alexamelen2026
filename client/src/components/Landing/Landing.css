@@ -1,13 +1,18 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin:0;
+    background-color: var(--primary-color);
+}
+
 header{
     display: flex;
     height: 100vh;
     padding: 28.271px 37.695px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 9.424px;
     align-self: stretch;
-    background: var(--Real-Primary-Color, #E2ABAB);
 }
 .wrapper{
     display: flex;
@@ -17,16 +22,18 @@ header{
     flex: 1 0 0;
     align-self: stretch;
     border-radius: 43.35px;
-    border: 6.597px solid var(--Detail-Color, #3B3A34);
-    background: var(--Accent-Color, #AEC665);
+    border: 6.597px solid var(--detail-color);
+    background: var(--accent-color);
 }
 .hero{
     display: flex;
-    padding: 114px 29.937px;
+    flex: 1;
+    padding: 0 29px;
     justify-content: center;
     align-items: center;
-    gap: 52.966px;
+    gap: 52px;
     align-self: stretch;
+    transform: translateY(-40px);
 }
 
 .miffy-and-me{
@@ -52,7 +59,7 @@ header{
 
 .greeting{
     align-self: stretch;
-    color: var(--Detail-Color, #3B3A34);
+    color: var(--detail-color);
     text-align: center;
     font-family: Sora;
     font-size: 27.635px;
@@ -63,7 +70,7 @@ header{
 
 .name{
     width: 584.931px;
-    color: var(--Detail-Color, #3B3A34);
+    color: var(--detail-color);
     text-align: center;
     font-family: Sora;
     font-size: 73.692px;
@@ -73,7 +80,7 @@ header{
 }
 
 .title{
-    color: var(--Detail-Color, #3B3A34);
+    color: var(--detail-color);
     text-align: center;
     font-family: Sora;
     font-size: 46.058px;
@@ -98,9 +105,9 @@ header{
     min-width: 216.47px;
     height: 73.692px;
     border-radius: 57.572px;
-    background: #F5E8AA;
-    box-shadow: 10.363px 12.666px 0 0 var(--Detail-Color, #3B3A34);
-    color: var(--Detail-Color, #3B3A34);
+    background: var(--sub-color);
+    box-shadow: 10.363px 12.666px 0 0 var(--detail-color);
+    color: var(--detail-color);
     text-align: center;
     font-family: Sora;
     font-size: 27.635px;
