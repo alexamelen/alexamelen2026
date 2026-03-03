@@ -1,10 +1,13 @@
 import React from 'react'
 import "./Landing.css";
-import { LinkedIn, Github , Me1} from '../..';
+import { LinkedIn, Github , Me1, Resume} from '../..';
+import Navbar from '../Navbar/Navbar';
 
 const Landing = () => {
   return (
     <header>
+      <div className='wrapper'>
+      <Navbar />
       <div className = "hero">
         <div className='miffy-and-me'>
           <img src={Me1} alt="Photo of Alex Melendez" />
@@ -15,15 +18,15 @@ const Landing = () => {
         <h1 className = "name">Alex Melendez</h1>
         <h2 className = "title">Software Engineer</h2>
 
-        <div className = "hero-buttons">
-          <a href="#" className='resume-btn'> Resume</a>
+        <div className = "hero-btns">
+          <a href={Resume} target="_blank" rel="noopener noreferrer" className='resume-btn'> Resume</a>
           <a href="mailto:alexamelen.03@gmail.com" className="contact-btn"> Contact Me!</a>
         </div>
 
         <div className = 'social-btns'> 
           <a
             href="https://www.linkedin.com/in/alexamelen"
-            className="linnkedin-btn"
+            className="linkedin-btn"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn profile"
@@ -41,6 +44,7 @@ const Landing = () => {
           </a>
         </div>
         </div>
+      </div>
       </div>
     </header>
   )

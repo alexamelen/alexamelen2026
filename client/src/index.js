@@ -6,6 +6,7 @@ import LinkedIn from "./assets/Linkedin.svg"
 import Me1 from './assets/me-1.png'
 import Me2 from './assets/me.png'
 import User from './assets/User.svg'
+import Resume from './assets/Resume.pdf'
 
 export {
     Initial,
@@ -15,5 +16,6 @@ export {
     LinkedIn,
     Me1,
     Me2,
-    User
+    User,
+    Resume
 };

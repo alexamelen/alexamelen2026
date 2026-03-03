@@ -1,0 +1,53 @@
+.nav-wrapper{
+    display: flex;
+padding: 0 47.119px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+border-radius: 37.695px;
+background: var(--Sub-section-Color, #F5E8AA);
+}
+
+.logo{
+    display: flex;
+    padding: 16.963px 0 0 10.366px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.menu{
+    display: flex;
+padding: 9.424px 47.119px;
+justify-content: center;
+align-items: center;
+gap: 37.695px;
+}
+.logo-name,
+.menu-home,
+.menu-about,
+.menu-projects{
+    margin: 0;
+}
+
+.logo-name{
+    width: 289.312px;
+    height: 67.839px;
+    color: var(--Detail-Color, #3B3A34);
+    font-family: Borel;
+    font-size: 35.037px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu-home,
+.menu-about,
+.menu-projects{
+    color: var(--Detail-Color, #3B3A34);
+    font-family: Sora;
+    font-size: 22.364px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
