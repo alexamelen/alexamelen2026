@@ -12,17 +12,13 @@
 }
 .about-title{
     display: flex;
-    width: 462px;
-    height: 88px;
-    padding: 6px 37px;
+    max-width: 462px;
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
 }
 .abt-me-title{
-    width: 462px;
-    height: 98px;
-    flex-shrink: 0;
+    max-width: 462px;
     color: var(--detail-color);
     text-align: center;
     font-family: Sora;
@@ -34,22 +30,21 @@
 
 .about-hero{
     display: flex;
-height: 606px;
-padding: 48px 23px;
-justify-content: center;
-align-items: flex-end;
-gap: 40px;
-align-self: stretch;
+    flex:1;
+    padding: 48px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    transform: translateY(-40px);
+
 }
 
 .about-hero-text{
     display: flex;
-width: 736px;
-height: 441px;
+max-width: 736px;
 padding: 27.635px 39.149px;
 flex-direction: column;
-align-items: center;
-gap: 11.514px;
+gap: 16px;
 
 }
 
@@ -64,9 +59,6 @@ line-height: normal;
 }
 
 .abt-text{
-    width: 658px;
-height: 599px;
-flex-shrink: 0;
 color: var(--Detail-Color, #3B3A34);
 font-family: Sora;
 font-size: 30px;
