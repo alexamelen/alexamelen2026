@@ -1,0 +1,77 @@
+.abt-wrapper{
+    display: flex;
+    padding: 57px 16.963px;
+    flex-direction: column;
+    align-items: center;
+    gap: 9.424px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 43.35px;
+    border: 6.597px solid var(--detail-color);
+    background: var(--accent-color);
+}
+.about-title{
+    display: flex;
+    width: 462px;
+    height: 88px;
+    padding: 6px 37px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.abt-me-title{
+    width: 462px;
+    height: 98px;
+    flex-shrink: 0;
+    color: var(--detail-color);
+    text-align: center;
+    font-family: Sora;
+    font-size: 73.692px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.about-hero{
+    display: flex;
+height: 606px;
+padding: 48px 23px;
+justify-content: center;
+align-items: flex-end;
+gap: 40px;
+align-self: stretch;
+}
+
+.about-hero-text{
+    display: flex;
+width: 736px;
+height: 441px;
+padding: 27.635px 39.149px;
+flex-direction: column;
+align-items: center;
+gap: 11.514px;
+
+}
+
+.location{
+    align-self: stretch;
+    color: var(--detail-color);
+font-family: Sora;
+font-size: 27.635px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.abt-text{
+    width: 658px;
+height: 599px;
+flex-shrink: 0;
+color: var(--Detail-Color, #3B3A34);
+font-family: Sora;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
