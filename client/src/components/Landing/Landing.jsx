@@ -5,6 +5,7 @@ import Navbar from '../Navbar/Navbar';
 
 const Landing = () => {
   return (
+    <section id='home'>
     <header>
       <div className='wrapper'>
       <Navbar />
@@ -47,6 +48,7 @@ const Landing = () => {
       </div>
       </div>
     </header>
+    </section>
   )
 }
 

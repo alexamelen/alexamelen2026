@@ -5,16 +5,22 @@ import {Landing, About, Projects} from "./components";
 import { Routes, Route } from "react-router-dom";
 
 
-const App = () => {
-  return <>
-    <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-    </Routes>
+function HomePage() {
+  return (
+    <>
+      <Landing />
+      <About />
+      <Projects />
     </>
-};
+  );
+}
 
-export default App
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+    </Routes>
+  );
+}
 
-
+export default App;
