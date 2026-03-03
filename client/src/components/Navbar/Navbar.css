@@ -39,7 +39,8 @@
 }
 
 .menu-item {
-    color: var(--Detail-Color, #3B3A34);
+    position: relative;
+    color: var(--detail-color);
     font-family: Sora;
     font-size: 22.364px;
     font-style: normal;
@@ -47,3 +48,22 @@
     line-height: normal;
     text-decoration: none;
 }
+
+.menu-item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px; 
+  
+    width: 100%;
+    height: 3px;
+    background-color: var(--detail-color);
+  
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item:hover::after {
+    transform: scaleX(1);
+  }
