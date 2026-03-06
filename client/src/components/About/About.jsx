@@ -4,8 +4,7 @@ import { Me2 } from '../..';
 
 const About = () => {
   return (
-    <section id='about'>
-      <header>
+    <section id='about' className='about-section'>
         <div className='abt-wrapper'>
           <div className='about-title'>
             <h1 className='abt-me-title'>About Me</h1>
@@ -18,7 +17,6 @@ const About = () => {
             <img src={Me2} alt="Photo of Alex Melendez #2" />
           </div>
         </div>
-      </header>
     </section>
   )
 }

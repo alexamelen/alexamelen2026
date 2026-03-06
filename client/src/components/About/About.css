@@ -1,3 +1,10 @@
+.about-section{
+    display: flex;
+    height: 100vh;
+    padding: 28.271px 37.695px;
+    flex-direction: column;
+    align-self: stretch;
+}
 .abt-wrapper{
     display: flex;
     padding: 57px 16.963px;

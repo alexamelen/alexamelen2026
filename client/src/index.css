@@ -5,3 +5,7 @@
     --primary-color: #E2ABAB;
 
 }
+
+html {
+    scroll-behavior: smooth;
+  }

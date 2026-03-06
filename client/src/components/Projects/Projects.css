@@ -1,0 +1,161 @@
+.projects-section{
+    display: flex;
+    height: 100vh;
+    padding: 28.271px 37.695px;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.projects-wrapper{
+    display: flex;
+    padding: 57px 16.963px;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 43.35px;
+    border: 6.597px solid var(--detail-color);
+    background: var(--accent-color);
+}
+
+.projects-title{
+    display: flex;
+    max-width: 462px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.prj-title{
+    max-width: 462px;
+    color: var(--detail-color);
+    text-align: center;
+    font-family: Sora;
+    font-size: 73.692px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.proj-hero{
+    display: flex;
+    flex:1;
+    max-width: 1350px;
+    padding: 48px 63px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.proj-content{
+    display: flex;
+    max-width: 1330px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 75px;
+    flex-shrink: 0;
+}
+
+.db-proj,
+.volunteer-proj,
+.bez-proj{
+    display: flex;
+    max-width: 394px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    flex-shrink: 0;
+    border-radius: 53px;
+    border: 1px solid var(--detail-color);
+    background: var(--sub-color);
+    box-shadow: -20px 18px 0 0 var(--detail-color);
+}
+
+.db-title,
+.volunteer-title{
+    max-width: 246px;
+    flex-shrink: 0;
+    color: var(--detail-color);
+    text-align: center;
+    font-family: Sora;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bez-title{
+    max-width: 314px;
+    flex-shrink: 0;
+    color: var(--detail-color);
+    text-align: center;
+    font-family: Sora;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.proj-icon{
+    max-width: 102px;
+    flex-shrink: 0;
+}
+
+.project-description{
+    max-width: 322px;
+    color: var(--detail-color);
+    text-align: center;
+    font-family: Sora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bez-proj-description{
+    max-width: 338px;
+    color: var(--detail-color);
+    text-align: center;
+    font-family: Sora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.view-proj-link{
+    max-width: 217px;
+flex-shrink: 0;
+color: var(--detail-color);
+text-align: center;
+font-family: Sora;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.stay-tuned{
+    display: flex;
+max-width: 462px;
+padding: 0 37px;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+}
+
+.more-to-come{
+    max-width: 462px;
+flex-shrink: 0;
+color: var(--detail-color);
+text-align: center;
+font-family: Sora;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
