@@ -1,10 +1,10 @@
-header{
-    display: flex;
-    min-height: 100vh;
-    padding: 28.271px 37.695px;
-    flex-direction: column;
-    align-self: stretch;
+.landing-section{
+    display:flex;
+    min-height:100vh;
+    padding:28px 37px;
+    flex-direction:column;
 }
+
 .wrapper{
     display: flex;
     padding: 17.905px 16.963px;
@@ -15,8 +15,6 @@ header{
     border-radius: 43.35px;
     border: 6.597px solid var(--detail-color);
     background: var(--accent-color);
-    max-width: 1400px;
-    margin: 0 auto;
 }
 .hero{
     display: flex;
@@ -181,7 +179,7 @@ height: 55.269px;
     transform: scale(1.1);
 }
 
-@media (max-width: 900px){
+@media (max-width: 768px){
 
     .hero{
         flex-direction: column;
