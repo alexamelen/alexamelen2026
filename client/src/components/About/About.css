@@ -1,6 +1,6 @@
 .about-section{
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     padding: 28px 32px;
     flex-direction: column;
     align-self: stretch;
@@ -29,7 +29,7 @@
     color: var(--detail-color);
     text-align: center;
     font-family: Sora;
-    font-size: 73.692px;
+    font-size: clamp(36px,6vw,74px);
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -37,13 +37,17 @@
 
 .about-hero{
     display: flex;
-    flex:1;
-    padding: 48px 23px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    transform: translateY(-40px);
+    gap: clamp(24px,5vw,40px);
 
+}
+
+.about-hero img{
+    width:100%;
+    max-width:400px;
+    height:auto;
 }
 
 .about-hero-text{
@@ -59,7 +63,7 @@ gap: 16px;
     align-self: stretch;
     color: var(--detail-color);
 font-family: Sora;
-font-size: 27.635px;
+font-size: clamp(18px,2vw,28px);
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -68,9 +72,25 @@ line-height: normal;
 .abt-text{
 color: var(--Detail-Color, #3B3A34);
 font-family: Sora;
-font-size: 30px;
+font-size: clamp(16px,1.8vw,30px);
 font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
 
+@media (max-width: 768px){
+
+    .about-hero{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .about-hero-text{
+        padding: 20px;
+    }
+    
+    .abt-wrapper{
+        padding: 30px 15px;
+    }
+    
+    }
