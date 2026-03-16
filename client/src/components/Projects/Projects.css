@@ -1,14 +1,15 @@
 .projects-section{
     display: flex;
     height: 100vh;
-    padding: 28.271px 37.695px;
+    padding: 28px 32px;
     flex-direction: column;
     align-self: stretch;
 }
 
 .projects-wrapper{
+    flex: 1;
     display: flex;
-    padding: 57px 16.963px;
+    padding: 17px 17px;
     flex-direction: column;
     align-items: center;
     gap: 3px;
@@ -42,7 +43,7 @@
     display: flex;
     flex:1;
     max-width: 1350px;
-    padding: 48px 63px;
+    padding: 30px 63px;
     flex-direction: column;
     align-items: center;
     gap: 15px;
@@ -52,7 +53,7 @@
     display: flex;
     max-width: 1330px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex;
     gap: 75px;
     flex-shrink: 0;
 }
@@ -60,13 +61,14 @@
 .db-proj,
 .volunteer-proj,
 .bez-proj{
+    height: 100%;
     display: flex;
     max-width: 394px;
     padding: 10px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 26px;
+    gap: 10px;
     flex-shrink: 0;
     border-radius: 53px;
     border: 1px solid var(--detail-color);
@@ -141,7 +143,7 @@ line-height: normal;
 .stay-tuned{
     display: flex;
 max-width: 462px;
-padding: 0 37px;
+padding: 10px 37px;
 justify-content: center;
 align-items: flex-start;
 gap: 10px;
@@ -149,7 +151,7 @@ flex-shrink: 0;
 }
 
 .more-to-come{
-    max-width: 462px;
+max-width: 462px;
 flex-shrink: 0;
 color: var(--detail-color);
 text-align: center;
