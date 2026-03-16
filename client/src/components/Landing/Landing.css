@@ -1,15 +1,6 @@
-* {
-    box-sizing: border-box;
-  }
-
-body{
-    margin:0;
-    background-color: var(--primary-color);
-}
-
 header{
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     padding: 28.271px 37.695px;
     flex-direction: column;
     align-self: stretch;
@@ -24,25 +15,33 @@ header{
     border-radius: 43.35px;
     border: 6.597px solid var(--detail-color);
     background: var(--accent-color);
+    max-width: 1400px;
+    margin: 0 auto;
 }
 .hero{
     display: flex;
+    flex-wrap: wrap;
     flex: 1;
     padding: 0 29px;
     justify-content: center;
     align-items: center;
-    gap: 52px;
+    gap: clamp(24px, 5vw, 52px);
     align-self: stretch;
-    transform: translateY(-40px);
 }
 
 .miffy-and-me{
-    width: 446.965px;
-    height: 421.231px;
+    width: 100%;
+    max-width: 450px;
     aspect-ratio: 139/131;
 }
 
+.miffy-and-me img{
+    width: 100%;
+    height: auto;
+}
+
 .hero-text{
+    max-width: 600px;
     display: flex;
     padding: 27.635px 39.149px;
     flex-direction: column;
@@ -62,18 +61,19 @@ header{
     color: var(--detail-color);
     text-align: center;
     font-family: Sora;
-    font-size: 27.635px;
+    font-size: clamp(16px, 2vw, 28px);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .name{
-    width: 584.931px;
+    max-width: 584px;
+    width: 100%;
     color: var(--detail-color);
     text-align: center;
     font-family: Sora;
-    font-size: 73.692px;
+    font-size: clamp(36px, 6vw, 74px);
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -83,7 +83,7 @@ header{
     color: var(--detail-color);
     text-align: center;
     font-family: Sora;
-    font-size: 46.058px;
+    font-size: clamp(24px, 4vw, 46px);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -100,12 +100,12 @@ header{
 .resume-btn,
 .contact-btn{
     position: relative;
-    overflow: hidden;   /* required */
+    overflow: hidden;  
     z-index: 1;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    min-width: 216.47px;
+    width: clamp(180px, 40vw, 220px);
     height: 73.692px;
     border-radius: 57.572px;
     background: var(--sub-color);
@@ -113,7 +113,7 @@ header{
     color: var(--detail-color);
     text-align: center;
     font-family: Sora;
-    font-size: 27.635px;
+    font-size: clamp(16px, 2vw, 28px);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -169,9 +169,9 @@ height: 55.269px;
 
 .linkedin-btn img,
 .github-btn img {
-    transition: transform 0.2s ease;
-    
-}.linkedin-btn:hover,
+    transition: transform 0.2s ease;    
+}
+.linkedin-btn:hover,
 .github-btn:hover {
     transform: translateY(-6px);
 }
@@ -181,4 +181,34 @@ height: 55.269px;
     transform: scale(1.1);
 }
 
+@media (max-width: 900px){
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        transform: translateY(0);
+    }
+    
+    .hero-text{
+        padding: 20px;
+    }
+    
+    .hero-btns{
+        flex-direction: column;
+    }
+    
+    .wrapper{
+        padding: 15px;
+    }
+    
+    }
+
+@media (max-width: 600px){
+
+    .linkedin-btn img,
+    .github-btn img{
+        width: 32px;
+    }
+    
+    }
 

@@ -1,7 +1,7 @@
 .about-section{
     display: flex;
     height: 100vh;
-    padding: 28.271px 37.695px;
+    padding: 28px 32px;
     flex-direction: column;
     align-self: stretch;
 }
