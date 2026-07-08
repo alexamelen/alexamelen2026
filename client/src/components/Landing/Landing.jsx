@@ -16,7 +16,7 @@ const Landing = () => {
         <div className = "hero-text">
         <p className = "greeting" >Hello, I'm</p>
         <h1 className = "name">Alex Melendez</h1>
-        <h2 className = "title">Software Engineer</h2>
+        <h2 className = "title">Aspiring Instructional Designer</h2>
 
         <div className = "hero-btns">
           <a href={Resume} target="_blank" rel="noopener noreferrer" className='resume-btn'> Resume</a>

@@ -52,7 +52,7 @@
 
 .about-hero-text{
     display: flex;
-max-width: 736px;
+max-width: 900px;
 padding: 27.635px 39.149px;
 flex-direction: column;
 gap: 16px;
